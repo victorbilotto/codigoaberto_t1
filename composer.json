@@ -1,0 +1,34 @@
+{
+  "name": "victorbilotto/codigoaberto",
+  "description": "Treinamento Código Aberto upinside",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Victor Bilotto",
+      "email": "bilotto.victor@gmail.com",
+      "role": "Developer",
+      "homepage": "https://eleveads.com.br"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source"
+    },
+    "files": [
+      "source/Config.php",
+      "source/Helpers.php"
+    ]
+  },
+  "require": {
+    "ext-json": "*",
+    "coffeecode/router": "1.0.7",
+    "coffeecode/datalayer": "1.1.7",
+    "coffeecode/optimizer": "2.0.1",
+    "phpmailer/phpmailer": "6.1.7",
+    "league/plates": "4.0.0-alpha",
+    "league/oauth2-facebook": "2.0.1",
+    "league/oauth2-google": "3.0.2",
+    "matthiasmullie/minify": "1.3.63"
+  }
+}
